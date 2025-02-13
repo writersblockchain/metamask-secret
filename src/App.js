@@ -15,7 +15,7 @@ function App() {
       const wallet = await MetaMaskWallet.create(window.ethereum, ethAddress);
 
       const secretjs = new SecretNetworkClient({
-        url: "https://api.pulsar3.scrttestnet.com",
+        url: "https://pulsar.lcd.secretnodes.com",
         chainId: "pulsar-3",
         wallet: wallet,
         walletAddress: wallet.address,
